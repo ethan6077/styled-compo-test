@@ -11,6 +11,7 @@ import {
 import { WebBrowser } from 'expo';
 
 import { MonoText } from '../components/StyledText';
+import { MdText } from '../components/MdText';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -39,6 +40,7 @@ export default class HomeScreen extends React.Component {
 
             <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
               <MonoText style={styles.codeHighlightText}>screens/HomeScreen.js</MonoText>
+              <MdText>SPT is great</MdText>
             </View>
 
             <Text style={styles.getStartedText}>
